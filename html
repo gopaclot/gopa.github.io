@@ -1,1 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Realistic Roulette Spin</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="roulette-container">
+        <div class="player-info">
+            <div class="player">
+                <h2>Player 1</h2>
+                <input type="text" id="player1Name" placeholder="Enter name">
+                <input type="number" id="player1Bet" placeholder="Place your bet (min 5)">
+                <div id="roulette1">
+                    <div class="wheel"></div>
+                    <div class="marker"></div>
+                </div>
+                <button id="player1Spin">Spin</button>
+                <button id="player1Withdraw">Withdraw Points</button>
+            </div>
+            <div class="player">
+                <h2>Player 2</h2>
+                <input type="text" id="player2Name" placeholder="Enter name">
+                <input type="number" id="player2Bet" placeholder="Place your bet (min 5)">
+                <div id="roulette2">
+                    <div class="wheel"></div>
+                    <div class="marker"></div>
+                </div>
+                <button id="player2Spin">Spin</button>
+                <button id="player2Withdraw">Withdraw Points</button>
+            </div>
+        </div>
+        <div id="result"></div>
+        <div id="score">
+            <p>Player 1: <span id="player1Score">20</span> points</p>
+            <p>Player 2: <span id="player2Score">20</span> points</p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+
 
